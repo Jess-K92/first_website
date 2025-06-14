@@ -1,0 +1,153 @@
+/* Variables */
+
+:root{
+    --brand: #8246af;
+    --action: #ffa300;
+    --white: #ffffff;
+    --base-light: #cdb5df;
+    --base-dark: #0d0711;
+    --black: #111111;
+    --font-default: "Inter", sans-serif;
+    --space-small: 8px;
+    --space-medium: 16px;
+    --space-large:32px;
+    --space-xlarge:64px;
+
+}
+
+/* Variables End */
+
+
+/* CSS Reset */
+
+ html {
+     box-sizing: border-box;
+     font-size: var(--space-medium);
+     font-family: var(--font-default);
+     color: var(--black);
+     scroll-behavior: smooth;
+ }
+
+ *,
+ *:before,
+ *:after {
+     box-sizing: inherit;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: "Rubik", sans-serif;
+ }
+
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ ol,
+ ul {
+     margin: 0;
+     padding: 0;
+ }
+
+ ol,
+ ul {
+     list-style: none;
+ }
+
+ img {
+     max-width: 100%;
+     height: auto;
+ }
+
+ input,
+ button,
+ textarea,
+ select {
+     font: inherit;
+ }
+
+/* CSS Reset End */
+
+
+/* Utility Classes */
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction:column;
+}
+
+.logo {
+    max-height:100px;
+    width:auto;
+}
+.hero{
+    background-color: var(--brand);
+    color: white;
+    flex-direction: column;
+    padding: 20px
+}
+
+.padding-small{
+    padding: 8px;
+}
+.padding-medium{
+    padding: var(--space-medium)
+}
+.padding-large{
+    padding: 32px;
+}
+.padding-xlarge{
+    padding: 64px;
+}
+
+article .icon {
+    width: 24px;
+}
+
+article{
+     background-color: #cdb5df;
+     padding: 32px;
+}
+.articles-container{
+    gap:8px;
+}
+
+.icon{
+    width: 32px;
+}
+
+.header{
+    
+
+}
+
+.button-apply{
+    background-color: #ffa300;
+    padding: 12px var(--space-medium);
+    border-radius: 4px;
+    display: inline-block;
+    
+}
+.button-learn{
+    background-color: #ffa300;
+    padding: 12px var(--space-medium);
+    border-radius: 4px;
+    display: inline-block;
+    width: fit-content;
+
+}
